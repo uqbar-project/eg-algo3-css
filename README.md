@@ -6,7 +6,9 @@ Si estás en entorno Windows te recomendamos instalarte [Git Bash](https://gitfo
 
 # Editor de Texto: Visual Studio Code
 
-El editor de texto que vamos a soportar en la cursada es [**Visual Studio Code**](https://code.visualstudio.com/) (hay [una versión portable](https://sourceforge.net/projects/vscode-portable/) si estás en una máquina sin privilegios de administrador).
+El editor de texto que vamos a soportar en la cursada es [**Visual Studio Code**](https://code.visualstudio.com/). Si estás en una máquina sin privilegios de administrador, tenés dos opciones oficiales:
+- **User Installer** (más sencillo): descargalo desde la [página oficial de descarga](https://code.visualstudio.com/download) eligiendo "Windows User Installer". Se instala en tu carpeta de usuario sin necesitar permisos de admin.
+- **Modo portable** (ZIP): descargá el archivo ZIP desde la [página de descargas](https://code.visualstudio.com/download), extraelo en cualquier carpeta, creá una carpeta `data` dentro y ejecutá `Code.exe`. Podés llevarlo en un pendrive o usarlo sin dejar rastros en el sistema. Más detalle en la [documentación oficial de modo portable](https://code.visualstudio.com/docs/editor/portable).
 
 Dentro de Visual Studio Code, te recomendamos que crees un perfil vacío y lo asocies a tus nuevos proyectos CSS (podés ver [cómo se trabaja con perfiles en VSCode en este video](https://www.youtube.com/watch?v=_2F2Zt-_tUA). También te dejamos [este tutorial muy piola - en inglés](https://www.youtube.com/watch?v=QjvvqR9KyVo) y [la documentación oficial](https://code.visualstudio.com/docs/editor/profiles)).
 
