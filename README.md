@@ -18,20 +18,41 @@ Podés importar [este archivo que trae todas las extensiones para CSS](./css.cod
 
 ### Instalación manual
 
-Si no podés instalar las extensiones del Visual Studio Code manualmente. Para 2025 son las siguientes
+Si querés instalar las extensiones manualmente, para 2026 te recomendamos las siguientes:
 
-- **IntelliSense for CSS class names in HTML - Zignd**: te ofrece autocompletado para clases en HTML
-- **CSS Peek - Pranay Prakash**: para poder encontrar las definiciones de estilos desde el HTML (con F12 - Go to definition)
-- **HTMLHint - HTMLHint**: validación de sintaxis de HTML. Atención que la extensión HTMLHint de Mike Kaufman está deprecada, desde allí te redireccionan a la nueva.
-- **Auto Rename Tag - Jun Han**: permite renombrar un tag tanto al abrir como al cerrar el tag.
-- **Live Server (Five Server) - Yannick**: levanta un servidor local y refresca automáticamente el navegador ante cualquier cambio que hagas.
-- **Image preview - Kiss Tamás**: muestra previsualizaciones de imágenes en el margen
+- **Live Preview - Microsoft**: Levanta un servidor local dentro de VS Code o en tu navegador externo y refresca automáticamente ante cualquier cambio. ¡Es súper estable y oficial!
+- **CSS Peek - Pranay Prakash**: Permite encontrar y editar las definiciones de estilos directamente desde el HTML (con `F12` o `Cmd + Click` / `Ctrl + Click`).
+- **IntelliSense for CSS class names in HTML - Zignd**: Te ofrece autocompletado inteligente para clases CSS en tus archivos HTML.
+- **Image preview - Kiss Tamás**: Muestra una previsualización de las imágenes en el margen izquierdo del editor de código cuando las referenciás.
 
-y no te olvides de instalarte el **Git Extension Pack - Don Jayamanne** para poder integrarte con git
+### Configuraciones recomendadas (sin extensiones)
 
-También es bueno chequear en la configuración (`Ctrl` + `,` o `Cmd` + `,` en Mac) que tengas activada la opción _Bracket Pair Colorization_.
+En lugar de instalar extensiones adicionales, te recomendamos activar y verificar estas características que ya vienen integradas en VS Code. 
+
+Para configurarlas, abrí la configuración global (`Ctrl` + `,` en Windows/Linux o `Cmd` + `,` en Mac):
+
+#### 1. Auto Rename Tag (Linked Editing)
+Permite renombrar una etiqueta HTML (tanto la de apertura como la de cierre) y que la otra se actualice automáticamente en tiempo real.
+- **Desde la interfaz gráfica:** Buscá `Linked Editing` en la barra de búsqueda de la configuración y tildá la casilla **Editor: Linked Editing**.
+- **Desde el archivo `settings.json`:** Agregá la siguiente línea:
+  ```json
+  "editor.linkedEditing": true
+  ```
+
+#### 2. Bracket Pair Colorization (Coloreado de llaves y paréntesis)
+Te ayuda a identificar visualmente qué llave, corchete o paréntesis cierra con cuál mediante distintos colores. Aunque en las versiones modernas de VS Code ya viene activado por defecto, podés verificarlo:
+- **Desde la interfaz gráfica:** Buscá `Bracket Pair Colorization` y asegurate de que **Editor › Bracket Pair Colorization: Enabled** esté marcado (o configurado en `true`).
+- **Desde el archivo `settings.json`:** Agregá la siguiente línea:
+  ```json
+  "editor.bracketPairColorization.enabled": true
+  ```
 
 ![Bracket colorization VSC setting](/images/bracket-colorization.png)
+
+
+### Control de Versiones (Git)
+
+VS Code tiene soporte nativo excelente para Git (en la pestaña de Source Control), por lo que no necesitás instalar extensiones adicionales para realizar commits, push o pull. Si querés ver el historial de commits de forma visual, podés instalar opcionalmente **Git Graph - mhutchie**, que es muy intuitivo.
 
 # Alternativa a Visual Studio Code
 
