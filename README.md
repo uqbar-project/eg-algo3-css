@@ -51,7 +51,7 @@ Te ayuda a identificar visualmente qué llave, corchete o paréntesis cierra con
   "editor.bracketPairColorization.enabled": true
   ```
 
-![Bracket colorization VSC setting](/images/bracket-colorization.png)
+![Bracket colorization VSC setting](./images/bracket-colorization.png)
 
 
 ### Control de Versiones (Git)
